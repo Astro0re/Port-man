@@ -9,6 +9,14 @@ function App() {
   return (
     <>
       <div>
+        <h1>Port_Man</h1>
+        <p>An AI agent web app that studies selected shares, stuidies trends, tracks news, stalks investors and provides analysis/purchase advice </p>
+        <p>Your very own Portfolio Manager</p>
+      </div>
+      <div>
+        <p>Graph or practical demenstration animation</p>
+      </div>
+      <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
