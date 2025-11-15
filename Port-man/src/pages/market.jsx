@@ -1,6 +1,6 @@
-import './App.css'
+import './App.css';
 
-export default function market(){
+export default function Market(){
     return(
         <>
             <div>
@@ -9,4 +9,4 @@ export default function market(){
             </div>
         </>
     )
-}
+};

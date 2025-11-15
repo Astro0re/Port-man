@@ -1,6 +1,6 @@
-import './App.css'
+import './App.css';
 
-export default function rate(){
+export default function Rate(){
     return(
         <>
             <div>
@@ -9,4 +9,4 @@ export default function rate(){
             </div>
         </>
     )
-}
+};
