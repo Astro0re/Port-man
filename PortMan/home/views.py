@@ -1,5 +1,8 @@
-from django.shortcuts import render, httpsResponse
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def home(request):
-    return httpsResponse('Hello World')
+    return HttpResponse('Hello World')
+
+def home2(request):
+    return render(request, "Base.html")
