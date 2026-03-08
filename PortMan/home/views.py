@@ -5,4 +5,4 @@ def home(request):
     return HttpResponse('Hello World')
 
 def home2(request):
-    return render(request, "Base.html")
+    return render(request, "templates/base.html")
